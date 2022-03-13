@@ -1,0 +1,12 @@
+{
+    "_readme": [
+        "This file is for teting"
+    ],
+    "packages": [
+        {
+            "require": {
+                "php": "8.1.3"
+            }
+        }
+    ]
+}
