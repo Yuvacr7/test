@@ -27,4 +27,4 @@ jobs:
       - name: PHPUnit Tests
         env:
          TEST_NAME: Laravel
-        run: vendor/bin/phpunit
+        run: ./vendor/bin/phpunit
