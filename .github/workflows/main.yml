@@ -25,10 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: PHPUnit Tests
-        uses: php-actions/phpunit@v2
+        run: vendor/bin/phpunit --verbose
+      - uses: php-actions/phpunit@v2
         env:
           TEST_NAME: Laravel
-        with:
-          bootstrap: vendor/autoload.php
-          config: phpunit.xml
-          args: --coverage-text
+        
