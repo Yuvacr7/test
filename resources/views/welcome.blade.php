@@ -36,10 +36,6 @@
 						<input type="text" class="form-control form-control-sm" name="no2" id="no2" />
 					</div>
 					<div class="col-lg-6">
-						<label> No 3 </label>
-						<input type="text" class="form-control form-control-sm" name="no3" id="no3" />
-					</div>
-					<div class="col-lg-6">
 						<input type="submit" value="Sum" class="btn btn-sm btn-primary" name="submit" id="submit" />
 					</div>
 				<!--form action="" method="POST">
